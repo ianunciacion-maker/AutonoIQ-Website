@@ -253,13 +253,10 @@ function scrollToSection(sectionId) {
     }
 }
 
-// Schedule consultation function
-function scheduleConsultation() {
-    // Show consultation modal or redirect to booking page
-    showConsultationModal();
-}
+// Note: scheduleConsultation is now handled by Cal.com embed
+// The old modal system has been replaced with Cal.com integration
 
-// Show consultation modal
+// Show consultation modal (legacy - kept for reference)
 function showConsultationModal() {
     // Create modal HTML
     const modal = document.createElement('div');
