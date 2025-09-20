@@ -1090,9 +1090,10 @@ section {
     margin-bottom: 1rem;
 }
 
-.stars i {
+.stars .star {
     color: #fbbf24;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    text-shadow: 0 1px 3px rgba(251, 191, 36, 0.3);
 }
 
 .testimonial-content p {
